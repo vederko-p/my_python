@@ -13,7 +13,7 @@ class battle:
         print('Добро пожаловать в битву, {0}!'.format(self._name))
 
 
-    def get_stats(self): #получение зарактеристик персонажа
+    def get_stats(self): #получение характеристик персонажа
         print('Характеристики игрока {0}:\nЗдоровье - {1}\nСкорость - {2}\nБроня - {3}\nПатроны - {4}\nУсиления - Броня:{5}, Ускорение:{6}, Аптечка:{7}'.format(self._name,self._stats[0],self._stats[1][0],self._stats[2],self._stats[3],self._stats[4][0],self._stats[4][1],self._stats[4][2]))
 
     def get_position(self): #получение позиции персонажа
