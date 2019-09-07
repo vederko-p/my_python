@@ -1,3 +1,5 @@
+#выполнили Скибин и Александрова
+
 import random
 
 class battle:
